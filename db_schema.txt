@@ -1,0 +1,17 @@
+Database Structure
+
+Storage Type: Python Dictionary
+Variable Name: clients
+
+Key:
+Type: String
+Description: Username
+
+Value:
+Type: socket.socket object
+Description: Active TCP connection
+
+Operations:
+1. Add: clients[username] = socket
+2. Get: clients.get(target)
+3. Delete: del clients[username]
